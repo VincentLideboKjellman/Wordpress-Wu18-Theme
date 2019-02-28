@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 declare(strict_types=1);
 
 add_action('init', function () {
@@ -12,6 +11,6 @@ add_action('init', function () {
             'search_items' => __('Search Skills'),
             'singular_name' => __('Skill'),
         ],
-        'show_admin_column' => true,      
+        'show_admin_column' => true,
     ]);
 });

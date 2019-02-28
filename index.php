@@ -5,7 +5,7 @@
       <?php if (have_posts()): ?>
           <!-- Start the loop -->
           <?php while (have_posts()): ?>
-              <!-- iterate the post index and set up the next post in line -->            
+              <!-- iterate the post index and set up the next post in line -->
               <?php the_post(); ?>
               <div class="row">
                 <div class="col-2">
@@ -24,7 +24,7 @@
       <?php else: ?>
         <p>No posts.</p>
       <?php endif; ?>
-      
+
     </div><!-- /col -->
 </div><!-- /row -->
 

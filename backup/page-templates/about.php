@@ -32,7 +32,7 @@
                         <a href="<?php the_permalink($student); ?>"><?php echo $student->post_title; ?></a>
 
                         <?php $skills = get_the_terms( $student, 'skill'); ?>
-                        <p class="mb-0">Awesome at: </p>
+                        <p class="mb-0"> </p>
                         <ul>
                           <?php foreach ($skills as $skill) : ?>
                             <li><a href="<?php echo get_term_link($skill) ?>"><?php echo $skill->name ?></a></li>
